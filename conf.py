@@ -14,8 +14,8 @@ template = {
     "path": "../Galileo"
 }
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
+    "enabled": true,
+    "repo": "kepontry/Blog-With-GitHub-Boilerplate@gh-pages"
 }
 
 # 站点设置
@@ -23,10 +23,10 @@ site_name = "Kee's Blog"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "Kee"
-email = "hi@imalan.cn"
-author_homepage = "https://www.imalan.cn"
-description = "只坚持一种正义。我的正义。"
-key_words = ['Maverick', 'Kee', 'Galileo', 'blog']
+email = "1431629699@qq.com"
+author_homepage = "http://diary.kepontry.xyz"
+description = "Taste The World."
+key_words = ['Kee', 'blog']
 language = 'zh-CN'
 external_links = [
     {
