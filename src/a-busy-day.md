@@ -1,3 +1,17 @@
+---
+layout: post
+title: Hello World!
+slug: typography
+date: 2019-12-18 16:50
+status: publish
+author: AlanDecode
+categories: 
+  - Maverick
+tags:
+  - Design
+  - Typography
+excerpt: 这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。
+---
 # 又是瞎忙的一天
 
 先来总结一下今天做的事吧
