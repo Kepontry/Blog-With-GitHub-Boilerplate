@@ -73,7 +73,7 @@ social_links = [
 #        "name": "Weibo",
 #        "url": "https://weibo.com/5245109677/",
 #        "icon": "gi gi-weibo"
-    }
+#    }
 ]
 
 head_addon = r'''
