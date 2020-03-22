@@ -19,14 +19,14 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "Kee's Blog"
+site_name = "Kee's Diary"
 site_logo = "${static_prefix}logo.png"
-site_build_date = "2019-12-18T16:51+08:00"
+site_build_date = "2020-3-21T16:51+08:00"
 author = "Kee"
 email = "1431629699@qq.com"
 author_homepage = "http://diary.kepontry.xyz"
 description = "Taste The World."
-key_words = ['Kee', 'blog']
+key_words = ['Kee', 'Diary']
 language = 'zh-CN'
 external_links = [
     {
@@ -35,9 +35,9 @@ external_links = [
         "brief": "🏄‍ Go My Own Way."
     },
     {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "Kee's Blog",
+        "url": "http://blog.kepontry.xyz",
+        "brief": "Taste The World."
     }
 ]
 nav = [
@@ -59,20 +59,20 @@ nav = [
 ]
 
 social_links = [
-    {
-        "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
-        "icon": "gi gi-twitter"
-    },
+#    {
+#        "name": "Twitter",
+#        "url": "https://twitter.com/AlanDecode",
+#        "icon": "gi gi-twitter"
+#    },
     {
         "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
+        "url": "https://github.com/Kepontry",
         "icon": "gi gi-github"
     },
-    {
-        "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
-        "icon": "gi gi-weibo"
+#    {
+#        "name": "Weibo",
+#        "url": "https://weibo.com/5245109677/",
+#        "icon": "gi gi-weibo"
     }
 ]
 
