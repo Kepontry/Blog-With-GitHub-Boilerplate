@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>Kee's Blog</title><updated>2020-03-21T15:38:06.987483+08:06</updated><author><name>Kee</name><email>1431629699@qq.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/kepontry/Blog-With-GitHub-Boilerplate@gh-pages/logo.png</logo><subtitle>Taste The World.</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2020-03-21T15:38:06.987556+00:00</updated><author><name>AlanDecode</name><email>1431629699@qq.com</email><uri>http://diary.kepontry.xyz</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>Kee's Blog</title><updated>2020-03-22T01:48:20.247564+08:06</updated><author><name>Kee</name><email>1431629699@qq.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/kepontry/Blog-With-GitHub-Boilerplate@gh-pages/logo.png</logo><subtitle>Taste The World.</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2020-03-22T01:48:20.247689+00:00</updated><author><name>AlanDecode</name><email>1431629699@qq.com</email><uri>http://diary.kepontry.xyz</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -78,4 +78,42 @@
 &lt;/table&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry></feed>
+&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2020-03-22T01:48:20.247628+00:00</updated><author><name>AlanDecode</name><email>1431629699@qq.com</email><uri>http://diary.kepontry.xyz</uri></author><content>&lt;h1&gt;又是瞎忙的一天&lt;/h1&gt;
+&lt;p&gt;先来总结一下今天做的事吧&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将博客迁移至洛杉矶VPS，并成功安装&lt;a href="https://github.com/AlanDecode/Typecho-Theme-VOID"&gt;VOID主题&lt;/a&gt;（&lt;del&gt;说多了都是泪&lt;/del&gt;）&lt;/li&gt;
+&lt;li&gt;将上次（&lt;del&gt;也就是上周&lt;/del&gt;）未完成的基于GitHub和&lt;a href="https://github.com/AlanDecode/Maverick"&gt;Maverick&lt;/a&gt;的个人日记整好了，用的是默认的&lt;a href="https://github.com/AlanDecode/Maverick"&gt;Galileo&lt;/a&gt;主题&lt;/li&gt;
+&lt;li&gt;利用Typora的新功能，将PicGo和Typora结合，实现图片的自动上传和复制链接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一件一件来说吧&lt;/p&gt;
+&lt;h2&gt;迁移博客&lt;/h2&gt;
+&lt;p&gt;入坑Typecho已经5天了，回想一下具体怎么入的坑，也确实觉得有些好玩。首先是不知道怎么在Bing搜索结果中找到了&lt;a href="https://eas1.cn/"&gt;风也&lt;/a&gt;的博客，然后觉得网站做的很不错，就深入浏览了一下，当时我看到了它的一篇文章，&lt;a href="https://eas1.cn/posts/94.html"&gt;从零开始免费搭建个人博客&lt;/a&gt;，便知道了Typecho这个轻量级博客程序。之前被GitHub Pages和Hexo整的心累，一个是访问速度极慢（当时还不知道有cdn这个东西），一个是国内的百度爬虫到不了GitHub Pages，写的东西国内搜索引擎收录不了，所以不太想在那上面写了。碰巧博文中介绍了一种免费的方法，于是抱着试一试的心态就入坑了。&lt;/p&gt;
+&lt;p&gt;起初用的是&lt;a href="https://webs.horain.net/"&gt;HoRain&lt;/a&gt;的虚拟主机，100M数据库，100M存储空间，香港服。但博客网站访问速度时好时坏，主机控制界面响应太慢，到后面忍受不了就自己租服务器了，用的还是他家的。&lt;/p&gt;
+&lt;p&gt;系统选择的是Ubuntu16.04，按照Typecho中文网的&lt;a href="https://www.typechodev.com/servers/nginx_or_apache.html"&gt;教程&lt;/a&gt;来做的，有几个坑折磨了我好久。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;不知道为什么，安装软件的时候默认选择的是阿里云的镜像源，然后无法访问，不知道是不是因为墙的原因，我后面换了美国的源就好了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;这个配置文件最好不要带&lt;code&gt;.&lt;/code&gt;，否则nginx好像识别不出他是个配置文件
+&lt;figure style="flex: 219.41747572815535" &gt;&lt;img width="452" height="103" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200322001042.png" /&gt;&lt;figcaption&gt;image-20200322001041167&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;启用VOID插件需要安装mbstring模块&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;眼瞎了，我一直把上面的那个包看成了标题，把底下两个源码包上传了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;figure style="flex: 249.74489795918367" &gt;&lt;img width="979" height="196" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200322001801.png" /&gt;&lt;figcaption&gt;image-20200322001800195&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;个人日记&lt;/h2&gt;
+&lt;p&gt;这个是按照&lt;a href="https://blog.imalan.cn/archives/blog-with-github/"&gt;《完全用 GitHub 写博客》&lt;/a&gt;这篇文章写的，文章写的不算是教程吧，更算是原理讲述吧，他的git仓中讲的才是step-by-step的教程。他采用了一种不同于Hexo的博客构建方式，但是对于我这个小白用户来说，我主要是看中了它集成了jsDelivr的cdn服务，然后主题也很好看。&lt;/p&gt;
+&lt;p&gt;不过在使用过程中，发现了几处问题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在绑定自己的域名的时候，应该要把这个前缀改成&lt;code&gt;/&lt;/code&gt;，原来这样写应该是针对&lt;code&gt;username.github.io&lt;/code&gt;默认域名的情况&lt;/li&gt;
+&lt;li&gt;绑定的域名在GitHub Actions构建后就没了，猜测是提交的时候把CNAME文件给搞掉了，后续在想一想该怎么搞&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure style="flex: 574.1379310344828" &gt;&lt;img width="666" height="58" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200321233624.png" /&gt;&lt;figcaption&gt;image-20200321233623321&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Typora加入PicGo联动功能&lt;/h2&gt;
+&lt;p&gt;这个真的是markdown玩家的一大福音啊，直接将图片拖到Typora中再点击上传图片，就可以自动填充图片链接。如果结合Snipaste，还可以直接将截图从剪贴板复制过来，不用将截图存在本地，真的太方便了。&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 316.45569620253167" &gt;&lt;img width="1000" height="158" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200321233506.png" /&gt;&lt;figcaption&gt;image-20200321233421179&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;最后&lt;/h2&gt;
+&lt;p&gt;写了快四五十分钟，有些累了，反过头来发现这更像一篇技术型的文章了。小半年没写博客了，文思如泉涌，一下挡不住。后续我将记录一下生活中的事。&lt;/p&gt;
+</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry></feed>
