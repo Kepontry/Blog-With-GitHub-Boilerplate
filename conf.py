@@ -11,7 +11,7 @@ archives_page_size = 20
 template = {
     "name": "Galileo",
     "type": "git",
-    "path": "https://github.com/Kepontry/Maverick-Theme-Galileo.git",
+    "url": "https://github.com/Kepontry/Maverick-Theme-Galileo.git",
     "branch": "latest"
 }
 enable_jsdelivr = {
