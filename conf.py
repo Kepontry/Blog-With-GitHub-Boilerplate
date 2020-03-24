@@ -10,8 +10,9 @@ index_page_size = 10
 archives_page_size = 20
 template = {
     "name": "Galileo",
-    "type": "local",
-    "path": "../Galileo"
+    "type": "git",
+    "path": "https://github.com/Kepontry/Maverick-Theme-Galileo.git"
+    "branch": "latest"
 }
 enable_jsdelivr = {
     "enabled": True,
@@ -21,7 +22,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "Kee's Diary"
 site_logo = "${static_prefix}logo.png"
-site_build_date = "2020-3-21T16:51+08:00"
+site_build_date = "2020-03-21T16:51+08:00"
 author = "Kee"
 email = "1431629699@qq.com"
 author_homepage = "http://diary.kepontry.xyz"
