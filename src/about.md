@@ -17,10 +17,10 @@ tags:
 
 ## Contact
 
-在博客给我留言吧！
+在博客里给我留言吧！
 
 ## Links
 
-[个人博客](https://blog.kepontry.xyz):https://blog.kepontry.xyz
+个人博客:https://blog.kepontry.xyz
 
-[GitHub](https://github.com/kepontry):https://github.com/kepontry
+GitHub:https://github.com/kepontry
