@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kee's Diary</title><link>/</link><description>Be Yourself,Be Prepared!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/kepontry/Blog-With-GitHub-Boilerplate@gh-pages/logo.png</url><title>Kee's Diary</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 10 Apr 2020 15:37:35 +0806</lastBuildDate><pubDate>Fri, 10 Apr 2020 15:37:35 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kee's Diary</title><link>/</link><description>Be Yourself,Be Prepared!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/kepontry/Blog-With-GitHub-Boilerplate@gh-pages/logo.png</url><title>Kee's Diary</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 12 Apr 2020 15:46:19 +0806</lastBuildDate><pubDate>Sun, 12 Apr 2020 15:46:19 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -168,4 +168,12 @@
 &lt;p&gt;但是另外一方面，Hexo搭建的博客（指通过GitHub Pages搭建的）在主题上没有找到称心如意的（Next有些泛滥了），评论交互还有文章写作没有Typecho支持的好，这就令我很纠结。还有，既然都弄独立博客了，那为什么还怕折腾呢，整个服务器还能好好学学真正的前后端，而不是一堆静态页面通过GitHub Pages托管。而且建立博客可以记录自己的学习经历，既可以监督自己按时学习，又可以梳理自己的学习路线，岂不美哉？&lt;/p&gt;
 &lt;p&gt;感觉我一直是这样，纠结……&lt;/p&gt;
 &lt;p&gt;总想想出一个完美的解决方案，但是却很难找到，等想完的时候，热情也已被磨灭的差不多了。&lt;/p&gt;
-</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-10/</guid><pubDate>Fri, 10 Apr 2020 23:10:00 +0806</pubDate></item></channel></rss>
+</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-10/</guid><pubDate>Fri, 10 Apr 2020 23:10:00 +0806</pubDate></item><item><title>继续划水</title><link>/archives/2020-4-12/</link><description>&lt;p&gt;今天又来写日记了，以后坚持每天写日记，就随心写吧，想到什么写什么。也不用每天睡前写，因为可能会困了，然后就不想写。写日记呢我感觉和博客不同，如果说写博客是定期对自己研究方向和研究成果的整理，那么日记呢则是对自己每天做的事进行整理，整理比博客要更频繁。&lt;/p&gt;
+&lt;p&gt;好了，今天其实没干什么，感觉就是看了一个数字逻辑的PPT，而且有三分之一还是昨天看的，觉得自己很多时间都花在不必要的事情上了，老是想看这个可以让自己关注时事，可以增长知识，然后看一会儿又歇一会儿，玩玩游戏，吃吃东西，补补觉……可能这就是周末吧。&lt;/p&gt;
+&lt;p&gt;但自己确实还有很多事情要做，且不说现在已经大二了，要为今后的生涯做规划打算，现在其实有很多课内作业要完成，而自己真的是拖延症重度患者，非要等到deadline临近才开始做，但这样的效果可想而知。今后要加强时间管理，每天写Todolist，并严格要求自己完成，希望自己以后不要再拖延了，因为当deadline临近的感觉真的不好受。&lt;/p&gt;
+&lt;p&gt;再来说说关于博客的想法吧，在看了一些大佬的Hugo博客之后呢，我找到了我之后的方向。没错，就是Hugo。&lt;/p&gt;
+&lt;p&gt;之前我被Typecho能够实现的复杂功能（手机上写文章，评论通知，访客统计等等）所吸引，想用Miracle和南博客户端来写博客。但后来也陷入了思考，工作量太大，今后维持友联和回复评论要花费大量时间，圈子里的人喜欢DDos，服务器的维护会给我带来紧迫感等等。我发现我需要的仅仅只是一个好看的博客，然后想推什么就推，评论和网站统计什么的都是次要的，我需要一个能够让我投入写作的平台。&lt;/p&gt;
+&lt;p&gt;而这些，我都在Hugo里面找到了。我当时从Hexo转到Typecho一个是因为访问速度太慢（当时还不知道有cdn这个东西），一个是因为Next主题烂大街了。现在Hugo生成博客的速度比Hexo快，然后选的主题又好看，占用资源又很少，提升了访问速度，然后再配上Netify的cdn，虽然比不上国内的cdn，但也还不错啦。用的也是自动构建，源文件存在git仓里，Netify监测更改并部署网页到它的cdn上。这里不需要像我之前用Travis CI构建Hexo那样搞两个分支，因为这里根本没有用到GitHub Pages，后续部署和cdn都被Netify包了，而且还不用写自动构建的配置文件，只需要指明构建博客的Hugo版本即可，这都是社区里面的人给我们写好的轮子。&lt;/p&gt;
+&lt;p&gt;现在可以放一下&lt;a href="https://kind-ride-94cf3c.netlify.com/"&gt;博客页面&lt;/a&gt;，虽然现在还没有绑定好域名。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kind-ride-94cf3c.netlify.com/"&gt;https://kind-ride-94cf3c.netlify.com/&lt;/a&gt;&lt;/p&gt;
+</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-12/</guid><pubDate>Sun, 12 Apr 2020 23:38:00 +0806</pubDate></item></channel></rss>
