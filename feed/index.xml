@@ -1,42 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kee's Diary</title><link>/</link><description>Be Yourself,Be Prepared!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/kepontry/Blog-With-GitHub-Boilerplate@gh-pages/logo.png</url><title>Kee's Diary</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 16 Apr 2020 16:10:00 +0806</lastBuildDate><pubDate>Thu, 16 Apr 2020 16:10:00 +0806</pubDate><item><title>又是瞎忙的一天</title><link>/archives/2020-3-21/</link><description>&lt;p&gt;先来总结一下今天做的事吧&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;将博客迁移至洛杉矶VPS，并成功安装&lt;a href="https://github.com/AlanDecode/Typecho-Theme-VOID"&gt;VOID主题&lt;/a&gt;（&lt;del&gt;说多了都是泪&lt;/del&gt;）&lt;/li&gt;
-&lt;li&gt;将上次（&lt;del&gt;也就是上周&lt;/del&gt;）未完成的基于GitHub和&lt;a href="https://github.com/AlanDecode/Maverick"&gt;Maverick&lt;/a&gt;的个人日记整好了，用的是默认的&lt;a href="https://github.com/AlanDecode/Maverick"&gt;Galileo&lt;/a&gt;主题&lt;/li&gt;
-&lt;li&gt;利用Typora的新功能，将PicGo和Typora结合，实现图片的自动上传和复制链接&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;一件一件来说吧&lt;/p&gt;
-&lt;h2&gt;迁移博客&lt;/h2&gt;
-&lt;p&gt;入坑Typecho已经5天了，回想一下具体怎么入的坑，也确实觉得有些好玩。首先是不知道怎么在Bing搜索结果中找到了&lt;a href="https://eas1.cn/"&gt;风也&lt;/a&gt;的博客，然后觉得网站做的很不错，就深入浏览了一下，当时我看到了它的一篇文章，&lt;a href="https://eas1.cn/posts/94.html"&gt;从零开始免费搭建个人博客&lt;/a&gt;，便知道了Typecho这个轻量级博客程序。之前被GitHub Pages和Hexo整的心累，一个是访问速度极慢（当时还不知道有cdn这个东西），一个是国内的百度爬虫到不了GitHub Pages，写的东西国内搜索引擎收录不了，所以不太想在那上面写了。碰巧博文中介绍了一种免费的方法，于是抱着试一试的心态就入坑了。&lt;/p&gt;
-&lt;p&gt;起初用的是&lt;a href="https://webs.horain.net/"&gt;HoRain&lt;/a&gt;的虚拟主机，100M数据库，100M存储空间，香港服。但博客网站访问速度时好时坏，主机控制界面响应太慢，到后面忍受不了就自己租服务器了，用的还是他家的。&lt;/p&gt;
-&lt;p&gt;系统选择的是Ubuntu16.04，按照Typecho中文网的&lt;a href="https://www.typechodev.com/servers/nginx_or_apache.html"&gt;教程&lt;/a&gt;来做的，有几个坑折磨了我好久。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;不知道为什么，安装软件的时候默认选择的是阿里云的镜像源，然后无法访问，不知道是不是因为墙的原因，我后面换了美国的源就好了&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;这个配置文件最好不要带&lt;code&gt;.&lt;/code&gt;，否则nginx好像识别不出他是个配置文件
-&lt;figure style="flex: 219.41747572815535" &gt;&lt;img width="452" height="103" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200322001042.png" /&gt;&lt;figcaption&gt;image-20200322001041167&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;启用VOID插件需要安装mbstring模块&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;眼瞎了，我一直把上面的那个包看成了标题，把底下两个源码包上传了&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;figure style="flex: 249.74489795918367" &gt;&lt;img width="979" height="196" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200322001801.png" /&gt;&lt;figcaption&gt;image-20200322001800195&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;个人日记&lt;/h2&gt;
-&lt;p&gt;这个是按照&lt;a href="https://blog.imalan.cn/archives/blog-with-github/"&gt;《完全用 GitHub 写博客》&lt;/a&gt;这篇文章写的，文章写的不算是教程吧，更算是原理讲述吧，他的git仓中讲的才是step-by-step的教程。他采用了一种不同于Hexo的博客构建方式，但是对于我这个小白用户来说，我主要是看中了它集成了jsDelivr的cdn服务，然后主题也很好看。&lt;/p&gt;
-&lt;p&gt;不过在使用过程中，发现了几处问题&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在绑定自己的域名的时候，应该要把这个前缀改成&lt;code&gt;/&lt;/code&gt;，原来这样写应该是针对&lt;code&gt;username.github.io&lt;/code&gt;默认域名的情况&lt;/li&gt;
-&lt;li&gt;绑定的域名在GitHub Actions构建后就没了，猜测是提交的时候把CNAME文件给搞掉了，后续在想一想该怎么搞&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;figure style="flex: 574.1379310344828" &gt;&lt;img width="666" height="58" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200321233624.png" /&gt;&lt;figcaption&gt;image-20200321233623321&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h2&gt;Typora加入PicGo联动功能&lt;/h2&gt;
-&lt;p&gt;这个真的是markdown玩家的一大福音啊，直接将图片拖到Typora中再点击上传图片，就可以自动填充图片链接。如果结合Snipaste，还可以直接将截图从剪贴板复制过来，不用将截图存在本地，真的太方便了。&lt;/p&gt;
-&lt;p&gt;&lt;figure style="flex: 316.45569620253167" &gt;&lt;img width="1000" height="158" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200321233506.png" /&gt;&lt;figcaption&gt;image-20200321233421179&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h2&gt;最后&lt;/h2&gt;
-&lt;p&gt;写了快四五十分钟，有些累了，反过头来发现这更像一篇技术型的文章了。小半年没写博客了，文思如泉涌，一下挡不住。后续我将记录一下生活中的事。&lt;/p&gt;
-</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-3-21/</guid><pubDate>Sun, 22 Mar 2020 00:50:00 +0806</pubDate></item><item><title>宅家的一天</title><link>/archives/2020-3-22/</link><description>&lt;p&gt;今天没什么好说的，又在家里宅了一天，上午全校思政课，听元元校长讲述疫情大考下华中大人的担当，下午和清华同上一堂党课，也是讲与国家治理有关的内容。晚上赶了下算法的实验报告，发现落下的还挺多，然后数字逻辑看那些门电路、三极管、mos管也挺头疼的。今天好像没有太多成果，明天加油吧~&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kee's Diary</title><link>/</link><description>Be Yourself,Be Prepared!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/kepontry/Blog-With-GitHub-Boilerplate@gh-pages/logo.png</url><title>Kee's Diary</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 22 Apr 2020 15:27:06 +0806</lastBuildDate><pubDate>Wed, 22 Apr 2020 15:27:06 +0806</pubDate><item><title>宅家的一天</title><link>/archives/2020-3-22/</link><description>&lt;p&gt;今天没什么好说的，又在家里宅了一天，上午全校思政课，听元元校长讲述疫情大考下华中大人的担当，下午和清华同上一堂党课，也是讲与国家治理有关的内容。晚上赶了下算法的实验报告，发现落下的还挺多，然后数字逻辑看那些门电路、三极管、mos管也挺头疼的。今天好像没有太多成果，明天加油吧~&lt;/p&gt;
 &lt;p&gt;对了，原作者写的批处理程序挺不错的，省得我一直commit,push，现在只要双击就行了。&lt;/p&gt;
 </description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-3-22/</guid><pubDate>Sun, 22 Mar 2020 23:25:00 +0806</pubDate></item><item><title>听学校的留学分享有感</title><link>/archives/2020-3-24/</link><description>&lt;h2&gt;事情起因&lt;/h2&gt;
 &lt;p&gt;今晚上了Husters走世界这门公选课，分享嘉宾是16级翻译专业的学姐，在校期间辅修武大国际经贸，两获国奖，还参与爬虫相关的国家级大创项目。CATTI三级笔译，计算机四级，大英赛特等奖……目前已经拿Offer拿到手软，最后选了宾大的计算机。总之就是各类新闻报道中的“别人家的孩子”形象。&lt;/p&gt;
@@ -121,4 +84,12 @@
 &lt;p&gt;对了，还是要庆祝一下，在家学习期间终于用完了一本笔记本（其实是笔记本和作业本两用），毕竟之前很多本子都是用了几页就没有再写下去。回来的时候还以为连一半都写不完，所以就只带了一本，看这情形，估计两本都会写完了。&lt;/p&gt;
 &lt;p&gt;又水了一篇日记，明天早起看计算方法吧。:cry:（表情测试）&lt;/p&gt;
 &lt;p&gt;本次日记耗时14分&lt;/p&gt;
-</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-16/</guid><pubDate>Thu, 16 Apr 2020 23:54:00 +0806</pubDate></item></channel></rss>
+</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-16/</guid><pubDate>Thu, 16 Apr 2020 23:54:00 +0806</pubDate></item><item><title>糟糕的近期和新的触动</title><link>/archives/2020-4-22/</link><description>&lt;p&gt;不知不觉又6天没写日记了，其实自己一直记得要写日记的，但总是以晚或者没必要为借口。也不知道在这里写日记会不会有人看见啊，反正我试了，搜索引擎是搜不出来的。&lt;/p&gt;
+&lt;p&gt;近期对自己影响最大的大概就是两个人吧，一个是昨天晚上的留学嘉宾，一个就是今天看到的南大的研究生。两人都很优秀，给我的感觉就是很聪明，都很刻苦、会搜索资源、会深入思考、人都挺好、善交朋友，于是反观最近一直提不起精神的自己，有些难受。&lt;/p&gt;
+&lt;p&gt;也不知道是不是在家呆久了的原因，干什么都提不起精神来。今天本来只有两节课，但是上午呢只是把数字逻辑剩下的两道题给做完了，下午呢就看了一下这位南大研究生的长文，晚上，玩了会儿小游戏，看了会儿推文，一天就这样过去了。&lt;/p&gt;
+&lt;p&gt;对于未来，我或许有了一些新的思考，今天看到的南大研究生是在西北工业大学读的本科，非CS专业，大三开始准备考研，学技术，然后讲述了自己的学习历程、实习和最后的工作。看到他收获如此多的Offer，我不禁感叹，这才过去了几年，就能有如此成就。这段时间内付出的努力，他仅仅只是轻描淡写，每天七八小时的算法练习，在Google实习时生病也要开完的会，实习时一周100小时的工作，充分利用在Google能接触到的资源。强大的时间管理能力、问题解决能力、出色的交际能力还有异于常人的努力，这些都是让我惊叹的。他面多家，为聊天和广交朋友的想法、无论是在高铁上还是自己生病时面试的坦然，都说明了他的成熟。&lt;/p&gt;
+&lt;p&gt;这不禁引发我的思考，大学真的只是给了你一个平台，甚至因为这个平台比较好，你会因为安逸而丧失斗志。（这当然不包括清北，他们的学生总是有无限潜力）真正决定一个人成败的往往是态度与胆识。如果是我，我可能没有勇气去考研，因为怕失败，怕吃苦，但这样其实最终还是要吃苦的。他可能并不是把这看成是吃苦，而是他在面试时所说的兴趣与激情吧，这是获得自己想要的东西的手段，而不是单独把这个过程拎出来说这是吃苦。&lt;/p&gt;
+&lt;p&gt;他对于工作的追求也让我有了很多想法，他也不太想做高强度的工作，但也想工资高，他在这个方向上找到了自己的归宿，这让我开始重新审视这个行业。&lt;/p&gt;
+&lt;p&gt;写完了，感觉肯定会有很多地方没有说到点，然后句子肯定会有不通的，逻辑混乱的，无所谓了，只要自己写的舒服，能够起到再思考和总结以及激励自己的目的就行了，我又不是想有读者来看是吧。&lt;/p&gt;
+&lt;p&gt;今天写的稍微久一些，花了半个小时&lt;/p&gt;
+</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-22/</guid><pubDate>Wed, 22 Apr 2020 22:53:00 +0806</pubDate></item></channel></rss>
