@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kee's Diary</title><link>/</link><description>Be Yourself,Be Prepared!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/kepontry/Blog-With-GitHub-Boilerplate@gh-pages/logo.png</url><title>Kee's Diary</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 25 Apr 2020 02:53:36 +0806</lastBuildDate><pubDate>Sat, 25 Apr 2020 02:53:36 +0806</pubDate><item><title>宅家的一天</title><link>/archives/2020-3-22/</link><description>&lt;p&gt;今天没什么好说的，又在家里宅了一天，上午全校思政课，听元元校长讲述疫情大考下华中大人的担当，下午和清华同上一堂党课，也是讲与国家治理有关的内容。晚上赶了下算法的实验报告，发现落下的还挺多，然后数字逻辑看那些门电路、三极管、mos管也挺头疼的。今天好像没有太多成果，明天加油吧~&lt;/p&gt;
-&lt;p&gt;对了，原作者写的批处理程序挺不错的，省得我一直commit,push，现在只要双击就行了。&lt;/p&gt;
-</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-3-22/</guid><pubDate>Sun, 22 Mar 2020 23:25:00 +0806</pubDate></item><item><title>听学校的留学分享有感</title><link>/archives/2020-3-24/</link><description>&lt;h2&gt;事情起因&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Kee's Diary</title><link>/</link><description>Be Yourself,Be Prepared!</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/kepontry/Blog-With-GitHub-Boilerplate@gh-pages/logo.png</url><title>Kee's Diary</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 25 Apr 2020 15:22:16 +0806</lastBuildDate><pubDate>Sat, 25 Apr 2020 15:22:16 +0806</pubDate><item><title>听学校的留学分享有感</title><link>/archives/2020-3-24/</link><description>&lt;h2&gt;事情起因&lt;/h2&gt;
 &lt;p&gt;今晚上了Husters走世界这门公选课，分享嘉宾是16级翻译专业的学姐，在校期间辅修武大国际经贸，两获国奖，还参与爬虫相关的国家级大创项目。CATTI三级笔译，计算机四级，大英赛特等奖……目前已经拿Offer拿到手软，最后选了宾大的计算机。总之就是各类新闻报道中的“别人家的孩子”形象。&lt;/p&gt;
 &lt;h2&gt;引发的一些思考&lt;/h2&gt;
 &lt;ul&gt;
@@ -92,4 +90,6 @@
 &lt;p&gt;他对于工作的追求也让我有了很多想法，他也不太想做高强度的工作，但也想工资高，他在这个方向上找到了自己的归宿，这让我开始重新审视这个行业。&lt;/p&gt;
 &lt;p&gt;写完了，感觉肯定会有很多地方没有说到点，然后句子肯定会有不通的，逻辑混乱的，无所谓了，只要自己写的舒服，能够起到再思考和总结以及激励自己的目的就行了，我又不是想有读者来看是吧。&lt;/p&gt;
 &lt;p&gt;今天写的稍微久一些，花了半个小时&lt;/p&gt;
-</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-22/</guid><pubDate>Wed, 22 Apr 2020 22:53:00 +0806</pubDate></item></channel></rss>
+</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-22/</guid><pubDate>Wed, 22 Apr 2020 22:53:00 +0806</pubDate></item><item><title>暂时停止更新日记</title><link>/archives/2020-4-25/</link><description>&lt;p&gt;如题，线上写感觉第一个放不开，第二个有些隐私还是不方便放上来，第三个就是感觉这样每天乱说一通效率不高，打算改变思路，做每日计划，模板大概就是下面这样，直接在Typora中用markdown语法画表格，随手记录，感觉更有效并且得心应手，每日计划的模板就在下面，先试试水，不习惯的话就再找一种总结当天并激励自己努力的方法。&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 54.95642701525055" &gt;&lt;img width="1009" height="918" src="https://cdn.jsdelivr.net/gh/kepontry/picbed/img/20200425231739.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+</description><author>1431629699@qq.com (Kee)</author><guid isPermaLink="true">/archives/2020-4-25/</guid><pubDate>Sat, 25 Apr 2020 23:14:00 +0806</pubDate></item></channel></rss>
